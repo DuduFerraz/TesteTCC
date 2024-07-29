@@ -1,0 +1,32 @@
+<!-- layout.ejs -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+  <link rel="./stylesheet/style.css" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo -->
+  <%- body %>
+
+  <!-- Footer -->
+  <footer class="footer">
+      <span class="text-muted">&copy; 2023 Meu Site. Todos os direitos reservados.</span>
+
+  </footer>
+</body>
+</html>

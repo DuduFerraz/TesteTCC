@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste-TCC</title>
+    <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+
+<%- include('layout', { body: `
+    <article class="corpo">
+                <div class="icones">
+                    <img src="./foto/perfil.jpg" alt="Código" class="icon-perfil">
+                    <i class="list-perfil"></i>
+                    
+                    <img src="./foto/hlater.png" alt="Paleta de Cores" class="icon-halter">
+                    <i class="list-halter">
+                    
+                    <img src="./foto/musica.jpg" alt="Foguete" class="icon-musica">
+                    <i class="list-musica"></i>
+                </div>
+    </article>
+  ` }) %>
+
+</body>
+</html>
+
+
+
